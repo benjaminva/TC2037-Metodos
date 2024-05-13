@@ -50,7 +50,7 @@ int main(){
 	// to check time
 	// auto stop = high_resolution_clock::now();
 
-	long long unsigned int num;
+	long long unsigned int num = 0;
 
 	for (int i = 0; i < SIZE; i++) {
 		 num += res[i];
