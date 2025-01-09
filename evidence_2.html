@@ -22,8 +22,8 @@
         <div class="navbar-fixed">
             <nav>
                 <div class="blue darken-1 nav-wrapper">
-                    <a href="index.html" class="brand-logo"><acronym title=" TC2037 Implementation of Computational Methods">
-                           TC2037 Implementation of Computational Methods</acronym></a>
+                    <a href="index.html" class="brand-logo"><acronym title=" TC2037 Implementación de Métodos Computacionales">
+                           TC2037 Implementación de Métodos Computacionales</acronym></a>
                 </div>
             </nav>
         </div>
@@ -43,7 +43,7 @@
                   <i class="small material-icons">list</i>
                   Instruccions</h5>
 
-                  <ul class="collection">
+                    <ul class="collection">
                       <li class="collection-item">
                         <b>Description:</b>
                         <br>Choose a language to generate its Grammar.
@@ -54,21 +54,24 @@
                         <br>Generate a grammar that recognizes the language.
                         <br>Eliminate Ambiguity in the grammar.
                         <br>Eliminate left recursion in the grammar.
+			<br>Include the corresponding syntactic trees to show the changes in the grammar.
 
                         <br><br>
                         <b>Implementation:</b>
                         <br>Implement a tester for your grammar using a natural language toolkit or library such as nltk in python, 
 			<br>You can choose a substitute but you should schedule an appointment to make sure I can run it before the hand-in.
-			<br>If I cant compile/run it, you will get 0 as a grade. 
+			<br>If I can't compile/run it, you will get 0 as a grade. 
 
                         <br><br>
                         <b>Test:</b>
-                        <be>Implement and document a set of tests, of strings that should be and shouldn't be accepted by the grammar. 
-			<be>Test documentation should include examples of the pushdown automata or LL1 parsing for the grammar and a specific string.
+                        <br>Implement and document a set of tests that show both: strings that should be accepted by the grammar and strings that shouldn't.
+			<br>Test documentation should include examples of the pushdown automata or LL1 parsing for the grammar and a specific string.
 
                         <br><br>
                         <b>Analysis:</b>
-                        <br>Thoroughly explain what type of grammar it is (Chomsky  Hierarchy Extended Level), what traits does it have, and why is not on any other level. 
+                        <br>Explain the level of the grammar in Chomsky’s hierarchy <b>before</b> the elimination of Ambiguity and left recursion
+                        <br>Explain the level of the grammar in Chomsky’s hierarchy <b>after</b> the elimination of Ambiguity and left recursion
+                        <br>Explain the time implications of the different levels and provide a brief example of a string of  each level
 
                       </li>
                   </ul>
